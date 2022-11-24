@@ -1,0 +1,9 @@
+{
+    "microservices": [],
+    "microfrontends": [],
+    "svc": [],
+    "name": "garanzia-etica-hub-bundle",
+    "version": "0.0.1",
+    "description": "garanzia-etica-hub-bundle description",
+    "type": "bundle"
+}

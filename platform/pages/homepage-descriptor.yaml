@@ -1,0 +1,30 @@
+code: homepage
+parentCode: homepage
+titles:
+  en: Entando Hub
+  it: Entando Hub
+pageModel: getica-hub-template
+ownerGroup: free
+joinGroups: []
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published
+widgets:
+  - code: getica_logo
+    config: null
+    pos: 0
+  - code: eh-login
+    config: null
+    pos: 1
+  - code: content_viewer
+    config:
+      contentDescription: Garanzia Etica Hub title and subtitle
+      modelId: "66"
+      ownerGroup: free
+      contentId: HEA57
+      joinGroups: "[]"
+    pos: 3
+  - code: eh-app
+    config: null
+    pos: 5

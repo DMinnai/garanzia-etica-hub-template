@@ -1,0 +1,8 @@
+code: getica_logo
+titles:
+  en: Logo Garanzia etica
+  it: Logo Garanzia etica
+group: free
+customUi: |-
+  <#assign wp=JspTaglibs["/aps-core"]>
+  <img src="<@wp.resourceURL />bundles/garanzia-etica-hub-bundle-74526741/resources/entando-hub/img/getica_logo.png"/>
