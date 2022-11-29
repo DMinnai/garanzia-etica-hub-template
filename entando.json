@@ -3,7 +3,7 @@
     "microfrontends": [],
     "svc": [],
     "name": "garanzia-etica-hub-bundle",
-    "version": "0.0.2",
+    "version": "1.0.0",
     "description": "garanzia-etica-hub-bundle description",
     "type": "bundle"
 }
