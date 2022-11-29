@@ -1,6 +1,6 @@
 id: HEA57
 typeCode: HEA
-description: Garanzia etica Hub title and subtitle
+description: Garanzia etica Hub Banner
 mainGroup: free
 groups:
   - free
@@ -9,16 +9,22 @@ attributes:
   - code: title
     value: null
     values:
-      en: Garanzia etica Hub
-      it: Garanzia etica Hub
+      en: Garanzia Etica Hub
+      it: Garanzia Etica Hub
     elements: []
     compositeelements: []
     listelements: {}
   - code: subtitle
     value: null
     values:
-      en: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus ullam quasi nam maiores velit, dicta error magnam minima, earum quia ea, omnis ab recusandae aperiam dolorum?'
-      it: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus ullam quasi nam maiores velit, dicta error magnam minima, earum quia ea, omnis ab recusandae aperiam dolorum?'
+      en: >-
+        For over 40 years, Garanzia Etica has been accompanying and promoting
+        the development of the company, supporting it in accessing credit and
+        growth within the company.
+      it: >
+        'Da oltre 40 anni, Garanzia Etica accompagna e promuove lo sviluppo
+        imprenditoriale, supportandola nell'accesso al credito e nella crescita
+        aziendale.'
     elements: []
     compositeelements: []
     listelements: {}

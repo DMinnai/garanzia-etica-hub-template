@@ -17,6 +17,8 @@
   background: #fff;
   padding: 1rem 13.7%;
   color: #fff;
+  border-bottom: 1px solid #8b0000;
+  margin-bottom: 15px;
 }
 
 .CatalogPageHeader-logo img {
@@ -133,7 +135,7 @@
 }
 
 x-eh-login {
-  color: #0054a5;
+  color: #161616;
 }
 
 .log-button {
@@ -148,19 +150,21 @@ x-eh-login {
 
 @media only screen and (min-width: 1024px) {
   section.entando-internal-banner.dark .wrapper-internal .writing-box h1 p {
-    font-size: 38px !important;
+    font-size: 44px !important;
     text-align: left;
     margin-bottom: 15px;
+    color: #f8c300;
   }
   section.entando-internal-banner.dark
-    .wrapper-internal
-    .writing-box
-    .subtitleH1
-    p {
+  .wrapper-internal
+  .writing-box
+  .subtitleH1
+  p {
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     font-family: Roboto-Regular, sans-serif;
+    width: 55%;
   }
   section.entando-internal-banner.dark .wrapper-internal {
     padding: 3rem 13.7%;
@@ -194,5 +198,46 @@ x-eh-login {
 }
 
 .entando-eh-login button {
-  color: #1d56a4 !important;
+  color: #000000 !important;
+}
+
+.bx--breadcrumb-item .bx--link:visited {
+  color: #ad2929;
+}
+
+.bx--breadcrumb-item .bx--link:visited:hover {
+  color: #c92121;
+}
+
+.bx--data-table th {
+  background-color: #ad2929;
+  color: #ffffff;
+}
+
+a {
+  color: #ad2929;
+}
+
+.CatalogTile-card-status {
+  color: #ad2929;
+}
+
+.bx--btn--primary {
+  background-color: #ad2929;
+}
+
+.bx--btn--primary:hover {
+  background-color: #c92121;
+}
+
+.bx--checkbox-label[data-contained-checkbox-state=mixed]:before, .bx--checkbox-label[data-contained-checkbox-state=true]:before, .bx--checkbox:checked+.bx--checkbox-label:before, .bx--checkbox:indeterminate+.bx--checkbox-label:before {
+  background-color: #ad2929;
+  border-color: #ad2929;
+}
+
+.entando-eh-login a {
+  color: #b81921;
+}
+.fas.fa-cog {
+  color: #b81921;
 }

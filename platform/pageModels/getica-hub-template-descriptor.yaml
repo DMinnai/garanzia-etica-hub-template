@@ -71,7 +71,6 @@ template: |-
          <@wp.currentPage param="title" />
       </title>
       <meta name="viewport" content="width=device-width,  user-scalable=no"/>
-      <@wp.fragment code="getica_eh_header_inclusion" escapeXml=false />
       <@wp.fragment code="eh_keycloak_auth" escapeXml=false />
    </head>
    <body>
@@ -104,6 +103,7 @@ template: |-
             <@wp.show frame=6 />
          </div>
       </div>
+      <@wp.fragment code="getica_eh_header_inclusion" escapeXml=false />
       <script nonce="<@wp.cspNonce />" type="text/javascript" >
          let lastUrl = location.href;
          new MutationObserver(() => {
