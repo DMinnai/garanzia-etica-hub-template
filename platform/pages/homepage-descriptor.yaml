@@ -1,8 +1,8 @@
-code: homepage
+code: getica_home
 parentCode: homepage
 titles:
-  en: Entando Hub
-  it: Entando Hub
+  en: Garanzia Etica Hub
+  it: Garanzia Etica Hub
 pageModel: getica-hub-template
 ownerGroup: free
 joinGroups: []
