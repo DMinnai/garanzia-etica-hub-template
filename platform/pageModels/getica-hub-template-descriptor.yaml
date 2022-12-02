@@ -71,7 +71,7 @@ template: |-
          <@wp.currentPage param="title" />
       </title>
       <meta name="viewport" content="width=device-width,  user-scalable=no"/>
-      <@wp.fragment code="eh_keycloak_auth" escapeXml=false />
+      <@wp.fragment code="getica_eh_keycloak_auth" escapeXml=false />
    </head>
    <body>
       <div class="CatalogPageWrapper">

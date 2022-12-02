@@ -1,3 +1,38 @@
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('../fonts/titillium-web-v10-latin-ext_latin-600.eot');
+  src: local('☺'),
+  url('../fonts/Titillium_Web/titillium-web-v10-latin-ext_latin-600.woff') format('woff'),
+  url('../fonts/Titillium_Web/titillium-web-v10-latin-ext_latin-600.ttf') format('truetype'),
+  url('../fonts/Titillium_Web/titillium-web-v10-latin-ext_latin-600.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('../fonts/Roboto_Mono/roboto-mono-v13-latin-ext_latin-regular.eot');
+  src: local('☺'),
+  url('../fonts/Roboto_Mono/roboto-mono-v13-latin-ext_latin-regular.woff') format('woff'),
+  url('../fonts/Roboto_Mono/roboto-mono-v13-latin-ext_latin-regular.ttf') format('truetype'),
+  url('../fonts/Roboto_Mono/roboto-mono-v13-latin-ext_latin-regular.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url('../fonts/Lora/lora-v20-latin-ext_latin-regular.eot');
+  src: local('☺'),
+  url('../fonts/Lora/lora-v20-latin-ext_latin-regular.woff') format('woff'),
+  url('../fonts/Lora/lora-v20-latin-ext_latin-regular.ttf') format('truetype'),
+  url('../fonts/Lora/lora-v20-latin-ext_latin-regular.svg') format('svg');
+}
+
+body {
+  font-family: 'Titillium Web', 'Roboto Mono', 'Lora' Helvetica, sans-serif !Important;
+}
+
+:focus {
+  outline: 2px solid #ad2929 !important;
+}
+
 .CatalogPageWrapper {
   display: flex;
   flex-direction: column;
@@ -240,4 +275,34 @@ a {
 }
 .fas.fa-cog {
   color: #b81921;
+}
+
+.bx--pagination .bx--select__item-count .bx--select-input {
+  border-right: 0.0625rem solid #f1c21b;
+}
+
+.bx--pagination .bx--select__page-number .bx--select-input {
+  border-left: 1px solid #f1c21b;
+}
+
+.bx--btn--ghost.bx--btn--icon-only[disabled] .bx--btn__icon path:not([data-icon-path]):not([fill=none]), .bx--btn.bx--btn--icon-only.bx--btn--ghost[disabled]:hover .bx--btn__icon {
+  fill: #f1c21b;
+}
+
+.bx--btn--ghost.bx--pagination__button, .bx--pagination__button {
+
+  border-left: 1px solid #f1c21b;
+}
+
+.bx--pagination .bx--select-input:hover {
+  background: #f2e9cc;
+}
+.bx--btn--ghost:disabled:hover.bx--pagination__button, .bx--btn--ghost:hover.bx--pagination__button--no-index, .bx--pagination__button--no-index:hover, .bx--pagination__button:disabled:hover {
+  background: #f2e9cc;
+}
+
+.OrganizationManagmentPage-section .bx--data-table tbody tr:hover td, .OrganizationManagmentPage-section .bx--data-table tbody tr:hover th {
+  background: #f2e9cc;
+  border-bottom: 1px solid #f2e9cc;
+  border-top: 1px solid #f2e9cc;
 }
